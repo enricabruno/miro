@@ -878,5 +878,3 @@ rdaco:1020 a skos:Concept .
 
 rdaco:1014 a skos:Concept .
 
-miro:EkphrasticRelation rdfs:subClassOf miro:IntermedialRelation .
-
