@@ -36,43 +36,43 @@
     <!-- http://iflastandards.info/ns/lrm/lrmoo/F5_Item -->
     <owl:Class rdf:about="http://iflastandards.info/ns/lrm/lrmoo/F5_Item"/>
 
-    <!-- https://w3id.org/miro/IntermedialRelation -->
-    <owl:Class rdf:about="https://w3id.org/miro/IntermedialRelation">
+    <!-- https://example.org/miro/IntermedialRelation -->
+    <owl:Class rdf:about="https://example.org/miro/IntermedialRelation">
         <rdfs:comment>An intermedial relation is a generic relation that occurs between two different media.</rdfs:comment>
         <rdfs:label>Intermedial Relation</rdfs:label>
     </owl:Class>
 
-    <!-- https://w3id.org/miro/MediaTransposition -->
-    <owl:Class rdf:about="https://w3id.org/miro/MediaTransposition">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/miro/IntermedialRelation"/>
+    <!-- https://example.org/miro/MediaTransposition -->
+    <owl:Class rdf:about="https://example.org/miro/MediaTransposition">
+        <rdfs:subClassOf rdf:resource="https://example.org/miro/IntermedialRelation"/>
         <rdfs:comment>A media trasposition is the way in which a medium comes into being with the transformation of a given medium.</rdfs:comment>
         <rdfs:label>Media Trasposition</rdfs:label>
     </owl:Class>
 
-    <!-- https://w3id.org/miro/IntermedialReference -->
-    <owl:Class rdf:about="https://w3id.org/miro/IntermedialReference">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/miro/IntermedialRelation"/>
+    <!-- https://example.org/miro/IntermedialReference -->
+    <owl:Class rdf:about="https://example.org/miro/IntermedialReference">
+        <rdfs:subClassOf rdf:resource="https://example.org/miro/IntermedialRelation"/>
         <rdfs:comment>An intermedial reference is the reference to a medium through another medium.</rdfs:comment>
         <rdfs:label>Intermedial Reference</rdfs:label>
     </owl:Class>
 
-    <!-- https://w3id.org/miro/MediaCombination -->
-    <owl:Class rdf:about="https://w3id.org/miro/MediaCombination">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/miro/IntermedialRelation"/>
+    <!-- https://example.org/miro/MediaCombination -->
+    <owl:Class rdf:about="https://example.org/miro/MediaCombination">
+        <rdfs:subClassOf rdf:resource="https://example.org/miro/IntermedialRelation"/>
         <rdfs:comment>A media combination is the process of combining at least two distinct media.</rdfs:comment>
         <rdfs:label>Media Combination</rdfs:label>
     </owl:Class>
     
-    <!-- https://w3id.org/miro/MediaReference -->
-    <owl:Class rdf:about="https://w3id.org/miro/MediaReference">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/miro/IntermedialReference"/>
+    <!-- https://example.org/miro/MediaReference -->
+    <owl:Class rdf:about="https://example.org/miro/MediaReference">
+        <rdfs:subClassOf rdf:resource="https://example.org/miro/IntermedialReference"/>
         <rdfs:comment>A media reference is a generic reference to a medium through another medium (e.g. an evocation).</rdfs:comment>
         <rdfs:label>Media Reference</rdfs:label>
     </owl:Class>
 
-    <!-- https://w3id.org/miro/EkphrasticRelation -->
-    <owl:Class rdf:about="https://w3id.org/miro/EkphrasticRelation">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/miro/IntermedialReference"/>
+    <!-- https://example.org/miro/EkphrasticRelation -->
+    <owl:Class rdf:about="https://example.org/miro/EkphrasticRelation">
+        <rdfs:subClassOf rdf:resource="https://example.org/miro/IntermedialReference"/>
         <rdfs:comment>An ekphrastic relation is a precise reference to a medium through another medium where the first one is always a text and the second one is always an image.</rdfs:comment>
         <rdfs:label>Ekphrastic Relation</rdfs:label>
     </owl:Class>
@@ -97,7 +97,6 @@
 
     <!--http://rdaregistry.info/Elements/w/rdac:C10003-->
     <owl:Class rdf:about="http://rdaregistry.info/Elements/c/rdac:C10003"/>
-
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -127,7 +126,7 @@
 
     <!-- http://www.w3.org/ns/prov#wasGeneratedBy -->
     <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasGeneratedBy">
-        <rdfs:domain rdf:resource="https://w3id.org/miro/IntermedialRelation"/>
+        <rdfs:domain rdf:resource="https://example.org/miro/IntermedialRelation"/>
         <rdfs:range rdf:resource="http://purl.org/emmedi/hico/InterpretationAct"/>
     </owl:ObjectProperty>
 
@@ -143,32 +142,32 @@
         <rdfs:range rdf:resource="http://purl.org/emmedi/hico/InterpretationAct"/>
     </owl:ObjectProperty>
 
-    <!-- https://w3id.org/miro/hasMediumA -->
-    <owl:ObjectProperty rdf:about="https://w3id.org/miro/hasMediumA">
-        <rdfs:domain rdf:resource="https://w3id.org/miro/MediaTransposition"/>
-        <rdfs:domain rdf:resource="https://w3id.org/miro/MediaCombination"/>
-        <rdfs:domain rdf:resource="https://w3id.org/miro/MediaReference"/>
-        <rdfs:domain rdf:resource="https://w3id.org/miro/EkphrasticRelation"/>
+    <!-- https://example.org/miro/hasMediumA -->
+    <owl:ObjectProperty rdf:about="https://example.org/miro/hasMediumA">
+        <rdfs:domain rdf:resource="https://example.org/miro/MediaTransposition"/>
+        <rdfs:domain rdf:resource="https://example.org/miro/MediaCombination"/>
+        <rdfs:domain rdf:resource="https://example.org/miro/MediaReference"/>
+        <rdfs:domain rdf:resource="https://example.org/miro/EkphrasticRelation"/>
         <rdfs:range rdf:resource="http://iflastandards.info/ns/lrm/lrmoo/F1_Work"/>
         <rdfs:range rdf:resource="http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"/>
         <rdfs:comment>The first medium involved in the intermedial relation.</rdfs:comment>
         <rdfs:label>has Medium A</rdfs:label>
     </owl:ObjectProperty>
 
-    <!-- https://w3id.org/miro/hasMediumB -->
-    <owl:ObjectProperty rdf:about="https://w3id.org/miro/hasMediumB">
-        <rdfs:domain rdf:resource="https://w3id.org/miro/MediaTransposition"/>
-        <rdfs:domain rdf:resource="https://w3id.org/miro/MediaCombination"/>
-        <rdfs:domain rdf:resource="https://w3id.org/miro/MediaReference"/>
-        <rdfs:domain rdf:resource="https://w3id.org/miro/EkphrasticRelation"/>
+    <!-- https://example.org/miro/hasMediumB -->
+    <owl:ObjectProperty rdf:about="https://example.org/miro/hasMediumB">
+        <rdfs:domain rdf:resource="https://example.org/miro/MediaTransposition"/>
+        <rdfs:domain rdf:resource="https://example.org/miro/MediaCombination"/>
+        <rdfs:domain rdf:resource="https://example.org/miro/MediaReference"/>
+        <rdfs:domain rdf:resource="https://example.org/miro/EkphrasticRelation"/>
         <rdfs:range rdf:resource="http://iflastandards.info/ns/lrm/lrmoo/F1_Work"/>
         <rdfs:range rdf:resource="http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"/>
         <rdfs:comment>The second medium involved in the intermedial relation.</rdfs:comment>
         <rdfs:label>has Medium B</rdfs:label>
     </owl:ObjectProperty>
 
-    <!-- https://w3id.org/miro/hasIntermedialReference -->
-    <owl:ObjectProperty rdf:about="https://w3id.org/miro/hasIntermedialReference">
+    <!-- https://example.org/miro/hasIntermedialReference -->
+    <owl:ObjectProperty rdf:about="https://example.org/miro/hasIntermedialReference">
         <rdfs:domain rdf:resource="http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"/>
         <rdfs:range rdf:resource="http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"/>
         <rdfs:comment>An intermedial reference is the specific relation that occurs in the ekphrastic relation.</rdfs:comment>
@@ -193,8 +192,8 @@
         <rdfs:range rdf:resource="http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"/>
     </owl:ObjectProperty>
 
-    <!-- https://w3id.org/miro/evokes -->
-    <owl:ObjectProperty rdf:about="https://w3id.org/miro/evokes">
+    <!-- https://example.org/miro/evokes -->
+    <owl:ObjectProperty rdf:about="https://example.org/miro/evokes">
         <rdfs:domain rdf:resource="http://iflastandards.info/ns/lrm/lrmoo/F1_Work"/>
         <rdfs:range rdf:resource="http://iflastandards.info/ns/lrm/lrmoo/F1_Work"/>
         <rdfs:comment>This relation expresses an evocation of a medium through another medium.</rdfs:comment>
@@ -400,8 +399,8 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#Integer"/>
     </owl:DatatypeProperty>
 
-    <!-- https://w3id.org/miro/hasFeature -->
-     <owl:DataProperty rdf:about="https://w3id.org/miro/hasFeature">
+    <!-- https://example.org/miro/hasFeature -->
+     <owl:DataProperty rdf:about="https://example.org/miro/hasFeature">
         <rdfs:domain rdf:resource="http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>This property allows to specify the features of the ekphrasis' content.</rdfs:comment>
@@ -419,7 +418,6 @@
         <rdfs:domain rdf:resource="http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DataProperty>
-
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
