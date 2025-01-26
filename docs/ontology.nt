@@ -1,0 +1,424 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#gYear
+<http://www.w3.org/2001/XMLSchema#gYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://iflastandards.info/ns/lrm/lrmoo/P65_shows_visual_item
+<http://iflastandards.info/ns/lrm/lrmoo/P65_shows_visual_item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://iflastandards.info/ns/lrm/lrmoo/P65_shows_visual_item> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+<http://iflastandards.info/ns/lrm/lrmoo/P65_shows_visual_item> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+# 
+# http://iflastandards.info/ns/lrm/lrmoo/R3_is_realised_in
+<http://iflastandards.info/ns/lrm/lrmoo/R3_is_realised_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://iflastandards.info/ns/lrm/lrmoo/R3_is_realised_in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F1_Work> .
+<http://iflastandards.info/ns/lrm/lrmoo/R3_is_realised_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+# 
+# http://iflastandards.info/ns/lrm/lrmoo/R4i_is_embodied_in
+<http://iflastandards.info/ns/lrm/lrmoo/R4i_is_embodied_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://iflastandards.info/ns/lrm/lrmoo/R4i_is_embodied_in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+<http://iflastandards.info/ns/lrm/lrmoo/R4i_is_embodied_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmoo/F3_Manifestation> .
+# 
+# http://iflastandards.info/ns/lrm/lrmoo/R5_has_component
+<http://iflastandards.info/ns/lrm/lrmoo/R5_has_component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://iflastandards.info/ns/lrm/lrmoo/R5_has_component> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+<http://iflastandards.info/ns/lrm/lrmoo/R5_has_component> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+# 
+# http://iflastandards.info/ns/lrm/lrmoo/R68_is_inspired_by
+<http://iflastandards.info/ns/lrm/lrmoo/R68_is_inspired_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://iflastandards.info/ns/lrm/lrmoo/R68_is_inspired_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F1_Work> .
+<http://iflastandards.info/ns/lrm/lrmoo/R68_is_inspired_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmoo/F1_Work> .
+# 
+# http://iflastandards.info/ns/lrm/lrmoo/R75_incorporates
+<http://iflastandards.info/ns/lrm/lrmoo/R75_incorporates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://iflastandards.info/ns/lrm/lrmoo/R75_incorporates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+<http://iflastandards.info/ns/lrm/lrmoo/R75_incorporates> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+# 
+# http://iflastandards.info/ns/lrm/lrmoo/R7i_is_exemplified_by
+<http://iflastandards.info/ns/lrm/lrmoo/R7i_is_exemplified_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://iflastandards.info/ns/lrm/lrmoo/R7i_is_exemplified_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F3_Manifestation> .
+<http://iflastandards.info/ns/lrm/lrmoo/R7i_is_exemplified_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmoo/F5_Item> .
+# 
+# http://purl.org/emmedi/hico/hasInterpretationCriterion
+<http://purl.org/emmedi/hico/hasInterpretationCriterion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/emmedi/hico/hasInterpretationCriterion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/emmedi/hico/InterpretationAct> .
+<http://purl.org/emmedi/hico/hasInterpretationCriterion> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/emmedi/hico/InterpretationCriterion> .
+# 
+# http://purl.org/emmedi/hico/hasInterpretationType
+<http://purl.org/emmedi/hico/hasInterpretationType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/emmedi/hico/hasInterpretationType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/emmedi/hico/InterpretationAct> .
+<http://purl.org/emmedi/hico/hasInterpretationType> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/emmedi/hico/InterpretationType> .
+# 
+# http://purl.org/emmedi/hico/isExtractedFrom
+<http://purl.org/emmedi/hico/isExtractedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/emmedi/hico/isExtractedFrom> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/emmedi/hico/InterpretationAct> .
+<http://purl.org/emmedi/hico/isExtractedFrom> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+# 
+# http://purl.org/spar/cito/agreesWith
+<http://purl.org/spar/cito/agreesWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/cito/agreesWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/emmedi/hico/InterpretationAct> .
+<http://purl.org/spar/cito/agreesWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/emmedi/hico/InterpretationAct> .
+# 
+# http://purl.org/spar/cito/disagreesWith
+<http://purl.org/spar/cito/disagreesWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/cito/disagreesWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/emmedi/hico/InterpretationAct> .
+<http://purl.org/spar/cito/disagreesWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/emmedi/hico/InterpretationAct> .
+# 
+# http://rdaregistry.info/Elements/e/P20006
+<http://rdaregistry.info/Elements/e/P20006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdaregistry.info/Elements/e/P20006> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+<http://rdaregistry.info/Elements/e/P20006> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#Language> .
+<http://www.w3.org/2001/XMLSchema#Language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://rdaregistry.info/Elements/e/rdae:P20001
+<http://rdaregistry.info/Elements/e/rdae:P20001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdaregistry.info/Elements/e/rdae:P20001> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+<http://rdaregistry.info/Elements/e/rdae:P20001> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+# 
+# http://rdaregistry.info/Elements/e/rdae:P20328
+<http://rdaregistry.info/Elements/e/rdae:P20328> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdaregistry.info/Elements/e/rdae:P20328> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+<http://rdaregistry.info/Elements/e/rdae:P20328> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> .
+# 
+# http://rdaregistry.info/Elements/e/rdae:P20338
+<http://rdaregistry.info/Elements/e/rdae:P20338> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://rdaregistry.info/Elements/e/rdae:P20346
+<http://rdaregistry.info/Elements/e/rdae:P20346> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://rdaregistry.info/Elements/i/rdai:P40021
+<http://rdaregistry.info/Elements/i/rdai:P40021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdaregistry.info/Elements/i/rdai:P40021> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F5_Item> .
+<http://rdaregistry.info/Elements/i/rdai:P40021> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> .
+# 
+# http://rdaregistry.info/Elements/i/rdai:P40162
+<http://rdaregistry.info/Elements/i/rdai:P40162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdaregistry.info/Elements/i/rdai:P40162> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F5_Item> .
+<http://rdaregistry.info/Elements/i/rdai:P40162> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+# 
+# http://rdaregistry.info/Elements/m/P30011
+<http://rdaregistry.info/Elements/m/P30011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdaregistry.info/Elements/m/P30011> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F3_Manifestation> .
+<http://rdaregistry.info/Elements/m/P30011> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#Integer> .
+<http://www.w3.org/2001/XMLSchema#Integer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://rdaregistry.info/Elements/m/rdam:P30088
+<http://rdaregistry.info/Elements/m/rdam:P30088> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdaregistry.info/Elements/m/rdam:P30088> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F3_Manifestation> .
+<http://rdaregistry.info/Elements/m/rdam:P30088> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+# 
+# http://rdaregistry.info/Elements/m/rdam:P30329
+<http://rdaregistry.info/Elements/m/rdam:P30329> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdaregistry.info/Elements/m/rdam:P30329> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F3_Manifestation> .
+<http://rdaregistry.info/Elements/m/rdam:P30329> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> .
+# 
+# http://rdaregistry.info/Elements/m/rdam:P30362
+<http://rdaregistry.info/Elements/m/rdam:P30362> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://rdaregistry.info/Elements/m/rdam:P30420
+<http://rdaregistry.info/Elements/m/rdam:P30420> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://rdaregistry.info/Elements/w/rdaw:P10065
+<http://rdaregistry.info/Elements/w/rdaw:P10065> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdaregistry.info/Elements/w/rdaw:P10065> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F1_Work> .
+<http://rdaregistry.info/Elements/w/rdaw:P10065> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> .
+# 
+# http://rdaregistry.info/Elements/w/rdaw:P10218
+<http://rdaregistry.info/Elements/w/rdaw:P10218> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdaregistry.info/Elements/w/rdaw:P10218> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F1_Work> .
+<http://rdaregistry.info/Elements/w/rdaw:P10218> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+# 
+# http://rdaregistry.info/Elements/w/rdaw:P10417
+<http://rdaregistry.info/Elements/w/rdaw:P10417> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdaregistry.info/Elements/w/rdaw:P10417> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdaregistry.info/Elements/w/rdaw:P10065> .
+# 
+# http://rdaregistry.info/Elements/w/rdaw:P10418
+<http://rdaregistry.info/Elements/w/rdaw:P10418> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdaregistry.info/Elements/w/rdaw:P10418> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdaregistry.info/Elements/w/rdaw:P10065> .
+# 
+# http://rdaregistry.info/Elements/w/rdaw:P10422
+<http://rdaregistry.info/Elements/w/rdaw:P10422> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdaregistry.info/Elements/w/rdaw:P10422> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdaregistry.info/Elements/w/rdaw:P10065> .
+# 
+# http://rdaregistry.info/Elements/w/rdaw:P10427
+<http://rdaregistry.info/Elements/w/rdaw:P10427> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdaregistry.info/Elements/w/rdaw:P10427> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdaregistry.info/Elements/w/rdaw:P10065> .
+# 
+# http://rdaregistry.info/Elements/w/rdaw:P10436
+<http://rdaregistry.info/Elements/w/rdaw:P10436> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdaregistry.info/Elements/w/rdaw:P10436> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdaregistry.info/Elements/w/rdaw:P10065> .
+# 
+# http://rdaregistry.info/Elements/w/rdaw:P10442
+<http://rdaregistry.info/Elements/w/rdaw:P10442> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdaregistry.info/Elements/w/rdaw:P10442> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdaregistry.info/Elements/w/rdaw:P10065> .
+# 
+# http://rdaregistry.info/Elements/w/rdaw:P10451
+<http://rdaregistry.info/Elements/w/rdaw:P10451> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdaregistry.info/Elements/w/rdaw:P10451> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdaregistry.info/Elements/w/rdaw:P10065> .
+# 
+# http://rdaregistry.info/Elements/w/rdaw:P10516
+<http://rdaregistry.info/Elements/w/rdaw:P10516> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdaregistry.info/Elements/w/rdaw:P10516> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdaregistry.info/Elements/w/rdaw:P10065> .
+# 
+# http://rdaregistry.info/Elements/w/rdaw:P10539
+<http://rdaregistry.info/Elements/w/rdaw:P10539> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdaregistry.info/Elements/w/rdaw:P10539> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdaregistry.info/Elements/w/rdaw:P10065> .
+# 
+# http://www.cidoc-crm.org/cidoc-crm/P148_has_component
+<http://www.cidoc-crm.org/cidoc-crm/P148_has_component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cidoc-crm.org/cidoc-crm/P148_has_component> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+<http://www.cidoc-crm.org/cidoc-crm/P148_has_component> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+# 
+# http://www.w3.org/2002/07/owl#sameAs
+<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F1_Work> .
+<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F3_Manifestation> .
+<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F5_Item> .
+<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdaregistry.info/Elements/c/rdac:C10001> .
+<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdaregistry.info/Elements/c/rdac:C10003> .
+<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdaregistry.info/Elements/c/rdac:C10006> .
+<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdaregistry.info/Elements/c/rdac:10007> .
+# 
+# http://www.w3.org/ns/prov#wasGeneratedBy
+<http://www.w3.org/ns/prov#wasGeneratedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/prov#wasGeneratedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/miro/IntermedialRelation> .
+<http://www.w3.org/ns/prov#wasGeneratedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/emmedi/hico/InterpretationAct> .
+# 
+# https://w3id.org/miro/evokes
+<https://w3id.org/miro/evokes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/miro/evokes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F1_Work> .
+<https://w3id.org/miro/evokes> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmoo/F1_Work> .
+<https://w3id.org/miro/evokes> <http://www.w3.org/2000/01/rdf-schema#comment> "This relation expresses an evocation of a medium through another medium." .
+<https://w3id.org/miro/evokes> <http://www.w3.org/2000/01/rdf-schema#label> "evokes" .
+# 
+# https://w3id.org/miro/hasIntermedialReference
+<https://w3id.org/miro/hasIntermedialReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/miro/hasIntermedialReference> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+<https://w3id.org/miro/hasIntermedialReference> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+<https://w3id.org/miro/hasIntermedialReference> <http://www.w3.org/2000/01/rdf-schema#comment> "An intermedial reference is the specific relation that occurs in the ekphrastic relation." .
+<https://w3id.org/miro/hasIntermedialReference> <http://www.w3.org/2000/01/rdf-schema#label> "has Intermedial Reference" .
+# 
+# https://w3id.org/miro/hasMediumA
+<https://w3id.org/miro/hasMediumA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/miro/hasMediumA> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/miro/EkphrasticRelation> .
+<https://w3id.org/miro/hasMediumA> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/miro/MediaCombination> .
+<https://w3id.org/miro/hasMediumA> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/miro/MediaReference> .
+<https://w3id.org/miro/hasMediumA> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/miro/MediaTransposition> .
+<https://w3id.org/miro/hasMediumA> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmoo/F1_Work> .
+<https://w3id.org/miro/hasMediumA> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+<https://w3id.org/miro/hasMediumA> <http://www.w3.org/2000/01/rdf-schema#comment> "The first medium involved in the intermedial relation." .
+<https://w3id.org/miro/hasMediumA> <http://www.w3.org/2000/01/rdf-schema#label> "has Medium A" .
+# 
+# https://w3id.org/miro/hasMediumB
+<https://w3id.org/miro/hasMediumB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/miro/hasMediumB> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/miro/EkphrasticRelation> .
+<https://w3id.org/miro/hasMediumB> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/miro/MediaCombination> .
+<https://w3id.org/miro/hasMediumB> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/miro/MediaReference> .
+<https://w3id.org/miro/hasMediumB> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/miro/MediaTransposition> .
+<https://w3id.org/miro/hasMediumB> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmoo/F1_Work> .
+<https://w3id.org/miro/hasMediumB> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+<https://w3id.org/miro/hasMediumB> <http://www.w3.org/2000/01/rdf-schema#comment> "The second medium involved in the intermedial relation." .
+<https://w3id.org/miro/hasMediumB> <http://www.w3.org/2000/01/rdf-schema#label> "has Medium B" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://rdaregistry.info/Elements/e/P20006
+<http://rdaregistry.info/Elements/e/P20006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://rdaregistry.info/Elements/e/P20312
+<http://rdaregistry.info/Elements/e/P20312> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdaregistry.info/Elements/e/P20312> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+<http://rdaregistry.info/Elements/e/P20312> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rdaregistry.info/Elements/m/P30011
+<http://rdaregistry.info/Elements/m/P30011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://rdaregistry.info/Elements/w/P10004
+<http://rdaregistry.info/Elements/w/P10004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdaregistry.info/Elements/w/P10004> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F1_Work> .
+<http://rdaregistry.info/Elements/w/P10004> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://rdaregistry.info/Elements/w/P10088
+<http://rdaregistry.info/Elements/w/P10088> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdaregistry.info/Elements/w/P10088> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F1_Work> .
+<http://rdaregistry.info/Elements/w/P10088> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rdaregistry.info/Elements/w/P10219
+<http://rdaregistry.info/Elements/w/P10219> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdaregistry.info/Elements/w/P10219> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F1_Work> .
+<http://rdaregistry.info/Elements/w/P10219> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#gYear> .
+# 
+# http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content
+<http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+<http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.w3.org/ns/prov#statedAtTime
+<http://www.w3.org/ns/prov#statedAtTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/ns/prov#statedAtTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/emmedi/hico/InterpretationAct> .
+<http://www.w3.org/ns/prov#statedAtTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#gYear> .
+# 
+# https://w3id.org/miro/hasFeature
+<https://w3id.org/miro/hasFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/miro/hasFeature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> .
+<https://w3id.org/miro/hasFeature> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://iflastandards.info/ns/lrm/lrmoo/F1_Work
+<http://iflastandards.info/ns/lrm/lrmoo/F1_Work> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://iflastandards.info/ns/lrm/lrmoo/F2_Expression
+<http://iflastandards.info/ns/lrm/lrmoo/F2_Expression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://iflastandards.info/ns/lrm/lrmoo/F3_Manifestation
+<http://iflastandards.info/ns/lrm/lrmoo/F3_Manifestation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://iflastandards.info/ns/lrm/lrmoo/F5_Item
+<http://iflastandards.info/ns/lrm/lrmoo/F5_Item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.org/emmedi/hico/InterpretationAct
+<http://purl.org/emmedi/hico/InterpretationAct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.org/emmedi/hico/InterpretationCriterion
+<http://purl.org/emmedi/hico/InterpretationCriterion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.org/emmedi/hico/InterpretationType
+<http://purl.org/emmedi/hico/InterpretationType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://rdaregistry.info/Elements/c/rdac:C10001
+<http://rdaregistry.info/Elements/c/rdac:C10001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://rdaregistry.info/Elements/c/rdac:C10003
+<http://rdaregistry.info/Elements/c/rdac:C10003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://rdaregistry.info/Elements/c/rdac:C10006
+<http://rdaregistry.info/Elements/c/rdac:C10006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://rdaregistry.info/Elements/c/rdac:10007
+<http://rdaregistry.info/Elements/c/rdac:10007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.cidoc-crm.org/cidoc-crm/E39_Actor
+<http://www.cidoc-crm.org/cidoc-crm/E39_Actor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.cidoc-crm.org/cidoc-crm/E53_Place
+<http://www.cidoc-crm.org/cidoc-crm/E53_Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2001/XMLSchema#Integer
+# 
+# http://www.w3.org/2001/XMLSchema#Language
+# 
+# http://www.w3.org/2002/07/owl#DataProperty
+<http://www.w3.org/2002/07/owl#DataProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/miro/EkphrasticRelation
+<https://w3id.org/miro/EkphrasticRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/miro/EkphrasticRelation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/miro/IntermedialReference> .
+<https://w3id.org/miro/EkphrasticRelation> <http://www.w3.org/2000/01/rdf-schema#comment> "An ekphrastic relation is a precise reference to a medium through another medium where the first one is always a text and the second one is always an image." .
+<https://w3id.org/miro/EkphrasticRelation> <http://www.w3.org/2000/01/rdf-schema#label> "Ekphrastic Relation" .
+# 
+# https://w3id.org/miro/IntermedialReference
+<https://w3id.org/miro/IntermedialReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/miro/IntermedialReference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/miro/IntermedialRelation> .
+<https://w3id.org/miro/IntermedialReference> <http://www.w3.org/2000/01/rdf-schema#comment> "An intermedial reference is the reference to a medium through another medium." .
+<https://w3id.org/miro/IntermedialReference> <http://www.w3.org/2000/01/rdf-schema#label> "Intermedial Reference" .
+# 
+# https://w3id.org/miro/IntermedialRelation
+<https://w3id.org/miro/IntermedialRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/miro/IntermedialRelation> <http://www.w3.org/2000/01/rdf-schema#comment> "An intermedial relation is a generic relation that occurs between two different media." .
+<https://w3id.org/miro/IntermedialRelation> <http://www.w3.org/2000/01/rdf-schema#label> "Intermedial Relation" .
+# 
+# https://w3id.org/miro/MediaCombination
+<https://w3id.org/miro/MediaCombination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/miro/MediaCombination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/miro/IntermedialRelation> .
+<https://w3id.org/miro/MediaCombination> <http://www.w3.org/2000/01/rdf-schema#comment> "A media combination is the process of combining at least two distinct media." .
+<https://w3id.org/miro/MediaCombination> <http://www.w3.org/2000/01/rdf-schema#label> "Media Combination" .
+# 
+# https://w3id.org/miro/MediaReference
+<https://w3id.org/miro/MediaReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/miro/MediaReference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/miro/IntermedialReference> .
+<https://w3id.org/miro/MediaReference> <http://www.w3.org/2000/01/rdf-schema#comment> "A media reference is a generic reference to a medium through another medium (e.g. an evocation)." .
+<https://w3id.org/miro/MediaReference> <http://www.w3.org/2000/01/rdf-schema#label> "Media Reference" .
+# 
+# https://w3id.org/miro/MediaTransposition
+<https://w3id.org/miro/MediaTransposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/miro/MediaTransposition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/miro/IntermedialRelation> .
+<https://w3id.org/miro/MediaTransposition> <http://www.w3.org/2000/01/rdf-schema#comment> "A media trasposition is the way in which a medium comes into being with the transformation of a given medium." .
+<https://w3id.org/miro/MediaTransposition> <http://www.w3.org/2000/01/rdf-schema#label> "Media Trasposition" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content
+<http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DataProperty> .
+# 
+# http://www.w3.org/ns/prov#statedAtTime
+<http://www.w3.org/ns/prov#statedAtTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/ns/prov#statedAtTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DataProperty> .
+# 
+# https://w3id.org/miro/hasFeature
+<https://w3id.org/miro/hasFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/miro/hasFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DataProperty> .
+# 
+# https://www.rdaregistry.info/termList/RDAContentType/stillImage
+<https://www.rdaregistry.info/termList/RDAContentType/stillImage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.rdaregistry.info/termList/RDAContentType/stillImage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+# 
+# https://www.rdaregistry.info/termList/RDAContentType/text
+<https://www.rdaregistry.info/termList/RDAContentType/text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.rdaregistry.info/termList/RDAContentType/text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<https://w3id.org/miro/hasFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "This property allows to specify the features of the ekphrasis' content." .
+<https://w3id.org/miro/hasFeature> <http://www.w3.org/2000/01/rdf-schema#label> "has Feature" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

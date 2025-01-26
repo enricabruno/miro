@@ -1,0 +1,596 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F1_Work",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F3_Manifestation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F5_Item",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://iflastandards.info/ns/lrm/lrmoo/P65_shows_visual_item",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  } ]
+}, {
+  "@id" : "http://iflastandards.info/ns/lrm/lrmoo/R3_is_realised_in",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F1_Work"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  } ]
+}, {
+  "@id" : "http://iflastandards.info/ns/lrm/lrmoo/R4i_is_embodied_in",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F3_Manifestation"
+  } ]
+}, {
+  "@id" : "http://iflastandards.info/ns/lrm/lrmoo/R5_has_component",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  } ]
+}, {
+  "@id" : "http://iflastandards.info/ns/lrm/lrmoo/R68_is_inspired_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F1_Work"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F1_Work"
+  } ]
+}, {
+  "@id" : "http://iflastandards.info/ns/lrm/lrmoo/R75_incorporates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  } ]
+}, {
+  "@id" : "http://iflastandards.info/ns/lrm/lrmoo/R7i_is_exemplified_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F3_Manifestation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F5_Item"
+  } ]
+}, {
+  "@id" : "http://purl.org/emmedi/hico/InterpretationAct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/emmedi/hico/InterpretationCriterion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/emmedi/hico/InterpretationType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/emmedi/hico/hasInterpretationCriterion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/emmedi/hico/InterpretationAct"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/emmedi/hico/InterpretationCriterion"
+  } ]
+}, {
+  "@id" : "http://purl.org/emmedi/hico/hasInterpretationType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/emmedi/hico/InterpretationAct"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/emmedi/hico/InterpretationType"
+  } ]
+}, {
+  "@id" : "http://purl.org/emmedi/hico/isExtractedFrom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/emmedi/hico/InterpretationAct"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  } ]
+}, {
+  "@id" : "http://purl.org/spar/cito/agreesWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/emmedi/hico/InterpretationAct"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/emmedi/hico/InterpretationAct"
+  } ]
+}, {
+  "@id" : "http://purl.org/spar/cito/disagreesWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/emmedi/hico/InterpretationAct"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/emmedi/hico/InterpretationAct"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/c/rdac:10007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/c/rdac:C10001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/c/rdac:C10003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/c/rdac:C10006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/e/P20006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#Language"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/e/P20312",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/e/rdae:P20001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/e/rdae:P20328",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E39_Actor"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/e/rdae:P20338",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/e/rdae:P20346",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/i/rdai:P40021",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F5_Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E39_Actor"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/i/rdai:P40162",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F5_Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E53_Place"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/m/P30011",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F3_Manifestation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#Integer"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/m/rdam:P30088",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F3_Manifestation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E53_Place"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/m/rdam:P30329",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F3_Manifestation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E39_Actor"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/m/rdam:P30362",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/m/rdam:P30420",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/w/P10004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F1_Work"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/w/P10088",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F1_Work"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/w/P10219",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F1_Work"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/w/rdaw:P10065",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F1_Work"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E39_Actor"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/w/rdaw:P10218",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F1_Work"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E53_Place"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/w/rdaw:P10417",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://rdaregistry.info/Elements/w/rdaw:P10065"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/w/rdaw:P10418",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://rdaregistry.info/Elements/w/rdaw:P10065"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/w/rdaw:P10422",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://rdaregistry.info/Elements/w/rdaw:P10065"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/w/rdaw:P10427",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://rdaregistry.info/Elements/w/rdaw:P10065"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/w/rdaw:P10436",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://rdaregistry.info/Elements/w/rdaw:P10065"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/w/rdaw:P10442",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://rdaregistry.info/Elements/w/rdaw:P10065"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/w/rdaw:P10451",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://rdaregistry.info/Elements/w/rdaw:P10065"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/w/rdaw:P10516",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://rdaregistry.info/Elements/w/rdaw:P10065"
+  } ]
+}, {
+  "@id" : "http://rdaregistry.info/Elements/w/rdaw:P10539",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://rdaregistry.info/Elements/w/rdaw:P10065"
+  } ]
+}, {
+  "@id" : "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.cidoc-crm.org/cidoc-crm/P148_has_component",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  } ]
+}, {
+  "@id" : "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#DataProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#Integer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#Language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#gYear",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#DataProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F1_Work"
+  }, {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  }, {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F3_Manifestation"
+  }, {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F5_Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://rdaregistry.info/Elements/c/rdac:C10001"
+  }, {
+    "@id" : "http://rdaregistry.info/Elements/c/rdac:C10003"
+  }, {
+    "@id" : "http://rdaregistry.info/Elements/c/rdac:C10006"
+  }, {
+    "@id" : "http://rdaregistry.info/Elements/c/rdac:10007"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#Concept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#statedAtTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#DataProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/emmedi/hico/InterpretationAct"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#wasGeneratedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/miro/IntermedialRelation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/emmedi/hico/InterpretationAct"
+  } ]
+}, {
+  "@id" : "https://w3id.org/miro/EkphrasticRelation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An ekphrastic relation is a precise reference to a medium through another medium where the first one is always a text and the second one is always an image."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Ekphrastic Relation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/miro/IntermedialReference"
+  } ]
+}, {
+  "@id" : "https://w3id.org/miro/IntermedialReference",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An intermedial reference is the reference to a medium through another medium."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Intermedial Reference"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/miro/IntermedialRelation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/miro/IntermedialRelation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An intermedial relation is a generic relation that occurs between two different media."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Intermedial Relation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/miro/MediaCombination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A media combination is the process of combining at least two distinct media."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Media Combination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/miro/IntermedialRelation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/miro/MediaReference",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A media reference is a generic reference to a medium through another medium (e.g. an evocation)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Media Reference"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/miro/IntermedialReference"
+  } ]
+}, {
+  "@id" : "https://w3id.org/miro/MediaTransposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A media trasposition is the way in which a medium comes into being with the transformation of a given medium."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Media Trasposition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/miro/IntermedialRelation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/miro/evokes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This relation expresses an evocation of a medium through another medium."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F1_Work"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "evokes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F1_Work"
+  } ]
+}, {
+  "@id" : "https://w3id.org/miro/hasFeature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#DataProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property allows to specify the features of the ekphrasis' content."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/miro/hasIntermedialReference",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An intermedial reference is the specific relation that occurs in the ekphrastic relation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Intermedial Reference"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  } ]
+}, {
+  "@id" : "https://w3id.org/miro/hasMediumA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The first medium involved in the intermedial relation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/miro/EkphrasticRelation"
+  }, {
+    "@id" : "https://w3id.org/miro/MediaCombination"
+  }, {
+    "@id" : "https://w3id.org/miro/MediaReference"
+  }, {
+    "@id" : "https://w3id.org/miro/MediaTransposition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Medium A"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F1_Work"
+  }, {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  } ]
+}, {
+  "@id" : "https://w3id.org/miro/hasMediumB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The second medium involved in the intermedial relation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/miro/EkphrasticRelation"
+  }, {
+    "@id" : "https://w3id.org/miro/MediaCombination"
+  }, {
+    "@id" : "https://w3id.org/miro/MediaReference"
+  }, {
+    "@id" : "https://w3id.org/miro/MediaTransposition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Medium B"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F1_Work"
+  }, {
+    "@id" : "http://iflastandards.info/ns/lrm/lrmoo/F2_Expression"
+  } ]
+}, {
+  "@id" : "https://www.rdaregistry.info/termList/RDAContentType/stillImage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ]
+}, {
+  "@id" : "https://www.rdaregistry.info/termList/RDAContentType/text",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ]
+} ]
