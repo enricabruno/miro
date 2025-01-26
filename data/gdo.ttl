@@ -465,7 +465,7 @@ rdaco:1021 a skos:Concept .
     hico:hasInterpretationCriterion <https://w3id.org/miro/criterion/archival-documentation> ;
     hico:hasInterpretationType <https://w3id.org/miro/type/ekph-rel-attribution> ;
     hico:isExtractedFrom <https://w3id.org/miro/publication/quot-6-pub-portesine-e> ;
-    cito:disagreesWith <https://w3id.org/miro/interpretationAct/interpretationAct_9> ;
+    cito:disagreesWith <https://w3id.org/miro/interpretationAct/interpretationAct_9_ek> ;
     prov:startedAtTime "2021"^^xsd:gYear .
 
 <https://w3id.org/miro/interpretationAct/interpretationAct_11_ek> a hico:InterpretationAct ;
@@ -538,7 +538,7 @@ rdaco:1021 a skos:Concept .
     hico:hasInterpretationCriterion <https://w3id.org/miro/criterion/scholar-attribution> ;
     hico:hasInterpretationType <https://w3id.org/miro/type/ekph-rel-attribution> ;
     hico:isExtractedFrom <https://w3id.org/miro/publication/quot-2-pub-risso-e> ;
-    cito:disagreesWith <https://w3id.org/miro/interpretationAct/interpretationAct_10> ;
+    cito:disagreesWith <https://w3id.org/miro/interpretationAct/interpretationAct_10_ek> ;
     prov:startedAtTime "2023"^^xsd:gYear .
 
 <https://w3id.org/miro/manifestation/cassa-sistina-m> a lrmoo:F3 .
@@ -609,10 +609,6 @@ rdaco:1021 a skos:Concept .
     owl:sameAs "https://www.wikidata.org/wiki/Q304923"^^xsd:anyURI .
 
 rdaco:1023 a skos:Concept .
-
-miro:MediaCombination rdfs:subClassOf miro:IntermedialRelation .
-
-miro:MediaTrasposition rdfs:subClassOf miro:IntermedialRelation .
 
 <https://w3id.org/miro/agent/carl-theodor-dreyer> a crm:E39 ;
     rdfs:label "Dreyer, Carl Theodor"^^xsd:string ;
@@ -822,8 +818,6 @@ miro:MediaTrasposition rdfs:subClassOf miro:IntermedialRelation .
 <https://w3id.org/miro/place/milan> a crm:E53 ;
     rdfs:label "Milan"^^xsd:string ;
     owl:sameAs "https://www.geonames.org/3173435"^^xsd:anyURI .
-
-miro:MediaReference rdfs:subClassOf miro:IntermedialRelation .
 
 <https://w3id.org/miro/expression/just-what-e> a lrmoo:F2 ;
     lrmoo:R4i <https://w3id.org/miro/manifestation/just-what-m> ;
